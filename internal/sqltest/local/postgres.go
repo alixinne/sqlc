@@ -12,9 +12,9 @@ import (
 	"github.com/jackc/pgx/v5"
 	"golang.org/x/sync/singleflight"
 
-	migrate "github.com/sqlc-dev/sqlc/internal/migrations"
-	"github.com/sqlc-dev/sqlc/internal/pgx/poolcache"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlpath"
+	migrate "github.com/alixinne/sqlc/internal/migrations"
+	"github.com/alixinne/sqlc/internal/pgx/poolcache"
+	"github.com/alixinne/sqlc/internal/sql/sqlpath"
 )
 
 var flight singleflight.Group

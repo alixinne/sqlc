@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlerr"
+	"github.com/alixinne/sqlc/internal/sql/ast"
+	"github.com/alixinne/sqlc/internal/sql/sqlerr"
 )
 
 type Type interface {
